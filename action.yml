@@ -1,0 +1,5 @@
+name: "Force Format"
+description: "Makes sure that no files are modified"
+runs:
+  using: "node16"
+  main: "dist/index.js"
